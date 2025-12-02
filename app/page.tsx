@@ -26,12 +26,8 @@ export default function JsonValidator() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-          JSON Validator
-        </h1>
-
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-8">
+      <div className="max-w-4xl w-full">
         <div className="bg-white rounded-lg shadow-lg p-6">
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-2">
